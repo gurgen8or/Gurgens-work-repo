@@ -1,0 +1,297 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+  background-color: #033048;
+  color: #fff;
+  padding: 20px 60px;
+
+}
+
+header nav {
+
+  float: right;
+  padding: 20px 0;
+
+}
+
+header nav ul#siteNav li {
+
+  display: inline-block;
+  font-size: 16px;
+  color: yellow;
+  padding: 0px 20px;
+  position: relative;
+  left: -100px;
+}
+
+header nav ul#siteNav li a {
+
+  color: yellow;
+  text-decoration: none;
+}
+
+header nav ul#siteNav li a:hover {
+
+  color: white;
+
+}
+
+header h1 {
+
+  float: left;
+  font-size: 40px;
+}
+
+
+section#articles {
+
+  width: 960px;
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+
+}
+
+section#articles div#articleList {
+
+  width: 58%;
+  float: left;
+  height: 200px;
+  margin: 5%;
+  /*background-color: red;*/
+
+}
+
+section#articles aside#sideBar {
+
+  width: 30%;
+  float: right;
+  height: 200px;
+  margin: 5%;
+  /*background-color: blue;*/
+}
+
+article p {
+
+  font-size: 12px;
+  margin-bottom: 10px;
+
+}
+
+#articleList {
+  font-size: 32px;
+}
+
+#articleList article {
+  margin-bottom: 75px;
+}
+
+div#read-more {
+  float: right;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+  padding: 10px 0;
+}
+
+#facebook-logo {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: -120px;
+  left: 425px;
+}
+
+#twitter-logo {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 355px;
+  top: -85px;
+}
+
+
+#read-more {
+  margin: 10px auto;
+}
+
+#articleCategories {
+  /*border: 1px solid red;*/
+  width: 150px;
+  padding-bottom: 20px;
+  position: relative;
+  top: -295px;
+}
+
+.module h3 {
+  font-size: 24px;
+}
+
+#aboutRelaxr {
+  /*border: 1px solid red;*/
+  width: 150px;
+  position: relative;
+  top: -295px;
+}
+
+#aboutRelaxr h3 {
+  font-weight: bold;
+}
+
+#articleCategories h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  /*top: -115px;*/
+  color: yellow;
+}
+
+#bottomtab h1 {
+  top: -115px;
+}
+
+/*
+footer {
+
+  display: block;
+  position: relative;
+  clear: both;
+  
+}
+*/
+#bottomtab {
+
+  width: 960px;
+  position: relative;
+  padding: 70px;
+  /*border: 1px solid red;*/
+  text-align: center;
+  top: 700px;
+  background-color: gray;
+  height: 300px;
+}
+
+#bottomtab footer {
+  position: relative;
+  /*top: 70px;*/
+}
+
+footer p {
+  color: #fff;
+}
+
+button {
+  padding: 10px 50px;
+  margin: 20px auto;
+  position: relative;
+  background-color: darkblue;
+  color: white;
+  border-radius: 7px;
+}
+
+#buttonz {
+  background-color: yellow;
+  position: relative;
+  top: -150px;
+  width: 960px;
+  text-align: center;
+  left: -70px;
+  padding: 10px;
+}
+
+section #ad-unit h2 {
+  /*border: 1px solid red;*/
+  width: 30%;
+  background-color: lightyellow;
+  position: relative;
+  top: -250px;
+  height: 350px;
+  min-width: 140px;
+}
+
+#ad-unit h2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div a {
+  text-decoration: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
