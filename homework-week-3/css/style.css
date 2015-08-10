@@ -104,6 +104,7 @@ header h1 {
 
   float: left;
   font-size: 40px;
+  text-indent: -15px;
 }
 
 
@@ -245,7 +246,7 @@ footer {
   /*border: 1px solid red;*/
   text-align: center;
   top: 800px;
-  background-color: gray;
+  background-color: #000;
   height: 300px;
 }
 
@@ -265,6 +266,7 @@ button {
   background-color: darkblue;
   color: white;
   border-radius: 7px;
+  font-weight: bold;
 }
 
 #buttonz {
