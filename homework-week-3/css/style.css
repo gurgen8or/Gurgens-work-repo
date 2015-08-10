@@ -138,7 +138,16 @@ article p {
 
   font-size: 12px;
   margin-bottom: 10px;
+  list-style: block;
+  padding-top: 10px;
+}
 
+article p::first-letter {
+  font-size: 400%;
+  color: gray;
+  line-height: 10px;
+  padding-left: 5px;
+  padding-top: 15px;
 }
 
 #articleList {
@@ -235,7 +244,7 @@ footer {
   padding: 70px;
   /*border: 1px solid red;*/
   text-align: center;
-  top: 700px;
+  top: 800px;
   background-color: gray;
   height: 300px;
 }

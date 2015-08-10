@@ -52,6 +52,7 @@ body {
      font-family: 'Open Sans', Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
+     font-family: 'Pacifico', arial;
 }
 
 h1 {
@@ -102,8 +103,8 @@ section p#heading {
 
 
 ul#benefits {
-  color: rgb(125,122,123);
-  list-style-type: circle;
+  /*color: rgb(125,122,123);*/
+  /*list-style-type: circle;*/
   padding-left: 100px;
   margin-bottom: 15px;
 }
@@ -198,9 +199,23 @@ padding-top: 50px;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* GLOBALS
 /*******************************************/
 
+a.button {
+  background-color: rgb(4 , 48, 230);
+  padding: 6px 20px;
+  border: none;
+  font-weight: bold;
+  font-color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 3px;
 
+
+}
+
+/******************************************
+/* GLOBALS
+/*******************************************/
 
 
