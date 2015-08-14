@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Website
+Client: FEWD-15
+Author: Sargsyan, Gurgen
+Developer @GA in LA
 */
 
 
@@ -82,222 +82,189 @@ header nav ul#siteNav li {
 
   display: inline-block;
   font-size: 16px;
-  color: yellow;
   padding: 0px 20px;
-  position: relative;
-  left: -100px;
+
 }
 
-header nav ul#siteNav li a {
-
-  color: yellow;
+#siteNav a {
   text-decoration: none;
-}
-
-header nav ul#siteNav li a:hover {
-
-  color: white;
-
+  color: yellow;
 }
 
 header h1 {
 
   float: left;
   font-size: 40px;
-  text-indent: -15px;
+  font-weight: bold;
+
 }
 
+img {
+  width: 100%;
+}
 
 section#articles {
 
   width: 960px;
   margin: 0 auto;
   /*border: 1px solid red;*/
-
 }
 
 section#articles div#articleList {
 
-  width: 58%;
+  width: 70%;
   float: left;
-  height: 200px;
-  margin: 5%;
+  /*height: 200px;*/
   /*background-color: red;*/
-
 }
 
 section#articles aside#sideBar {
 
   width: 30%;
   float: right;
-  height: 200px;
-  margin: 5%;
+  /*height: 200px;*/
   /*background-color: blue;*/
+  padding-left: 20px;
+
+}
+
+#articleCategories h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+#articleList a {
+  position: relative;
+  float: right;
+  text-decoration: none;
+}
+
+#articleCategories a {
+  text-decoration: none;
+}
+
+#aboutRelaxr {
+  width: 50%;
+}
+
+#aboutRelaxr h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+#aboutRelaxr img {
+  padding-top: 30px;
+}
+
+#aboutRelaxr a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article {
+
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+
+}
+
+article h2 {
+
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 40px;
 }
 
 article p {
 
-  font-size: 12px;
-  margin-bottom: 10px;
-  list-style: block;
-  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+
 }
 
 article p::first-letter {
+  position: relative;
+  color: #c6c6c6;
+  font-weight: bold;
   font-size: 400%;
-  color: gray;
-  line-height: 10px;
-  padding-left: 5px;
-  padding-top: 15px;
+  float: left;
+  padding-right: 4px;
+  line-height: 1;
 }
 
-#articleList {
-  font-size: 32px;
-}
-
-#articleList article {
-  margin-bottom: 75px;
-}
-
-div#read-more {
-  float: right;
-  font-size: 16px;
-}
-
-img {
-  width: 100%;
-  padding: 10px 0;
-}
-
-#facebook-logo {
-  width: 35px;
-  height: 35px;
-  position: relative;
-  top: -120px;
-  left: 425px;
-}
-
-#twitter-logo {
-  width: 35px;
-  height: 35px;
-  position: relative;
-  left: 355px;
-  top: -85px;
-}
-
-
-#read-more {
-  margin: 10px auto;
-}
-
-#articleCategories {
-  /*border: 1px solid red;*/
-  width: 150px;
-  padding-bottom: 20px;
-  position: relative;
-  top: -295px;
-}
-
-.module h3 {
-  font-size: 24px;
-}
-
-#aboutRelaxr {
-  /*border: 1px solid red;*/
-  width: 150px;
-  position: relative;
-  top: -295px;
-}
-
-#aboutRelaxr h3 {
-  font-weight: bold;
-}
-
-#articleCategories h3 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 28px;
-  font-weight: bold;
-  position: relative;
-  /*top: -115px;*/
-  color: yellow;
-}
-
-#bottomtab h1 {
-  top: -115px;
-}
-
-/*
-footer {
-
-  display: block;
-  position: relative;
-  clear: both;
-  
-}
-*/
-#bottomtab {
-
-  width: 960px;
-  position: relative;
-  padding: 70px;
-  /*border: 1px solid red;*/
+#button {
+  margin-top: 70px;
+  padding-top: 60px;
   text-align: center;
-  top: 800px;
-  background-color: #000;
-  height: 300px;
-}
-
-#bottomtab footer {
-  position: relative;
-  /*top: 70px;*/
-}
-
-footer p {
-  color: #fff;
-}
-
-button {
-  padding: 10px 50px;
-  margin: 20px auto;
-  position: relative;
-  background-color: darkblue;
-  color: white;
-  border-radius: 7px;
-  font-weight: bold;
-}
-
-#buttonz {
   background-color: yellow;
+}
+
+#button a {
   position: relative;
-  top: -150px;
-  width: 960px;
-  text-align: center;
-  left: -70px;
-  padding: 10px;
-}
-
-section #ad-unit h2 {
-  /*border: 1px solid red;*/
-  width: 30%;
-  background-color: lightyellow;
-  position: relative;
-  top: -250px;
-  height: 350px;
-  min-width: 140px;
-}
-
-#ad-unit h2 {
-  font-size: 24px;
-  text-align: center;
-  font-weight: bold;
-}
-
-div a {
+  top: -30px;
+  background-color: navy;
+  padding: 10px 40px;
+  font-size: 22px;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
+
+.relaxr {
+
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: black;
+  color: yellow;
+  height: 250px;
+}
+
+.relaxr h1 {
+
+  padding-top: 40px;
+
+}
+
+#facebook {
+  position: relative;
+  top: 33px;
+  left: 33px;
+  width: 17px;
+  height: 37px;
+}
+
+#twitter {
+  width: 43px;
+  height: 33px;
+  left: -33px;
+  top: -7px;
+}
+
+
+.relaxr #facebook {
+  position: relative;
+  margin: 0 auto;
+}
+
+.relaxr #twitter {
+  position: relative;
+  margin: 0 auto;
+}
+
+.relaxr footer {
+  clear: both;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
