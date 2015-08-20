@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Startup Matchmaker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reflexive.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Oswald|Slabo+27px|Lato|Montserrat' rel='stylesheet' type='text/css'>
+		<style>
+			@media screen and (max-width: 480px) {
+
+				body {
+					min-width: 480px;
+				}
+
+				h1 {
+					text-align: center;
+					
+				}
+				nav ul li {
+					display: block;
+					text-align: center;
+				}
+				.box aside {
+					min-width: 440px;
+					padding: 20px;
+					border-radius: 10px;
+				}
+				section .category {
+					display: block;
+					width: 100%;
+				}
+				div .category {
+					padding: 25px;
+				}
+				.category button {
+					left: 80px;
+				}
+				button#subscribe {
+					Left: 115px;
+				}
+
+			}
+
+			@media screen and (max-width: 860px) {
+
+
+				.box aside {
+					min-width: 440px;
+					padding: 20px;
+					border-radius: 10px;
+				}
+			}
+
+			@media screen and (min-width: 480px) and (max-width: 1300px) {
+
+				div .category {
+					min-width: 250px;
+					border-left: none;
+				}
+
+				.category p {
+					font-size: 18px;
+					width: 250px;
+				}
+
+				.category h3 {
+					font-size: 1em;
+				}
+				.category button {
+					padding: 5px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Startup Matchmaker</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Find Developers</a></li>
+					<li><a href="#">Find Designers</a></li>
+					<li><a href="#">How it Works</a></li>
+					<li><a href="#">Our Team</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="cover">
+			<h2>Because two brains <span>taste</span> <q>are</q> better than one.</h2>
+		</div>
+		<div id="marquee" class="clearfix">
+			<div class="box">
+					<!-- <img src="images/coworking.jpg"> -->
+				<aside>
+					<h3>Meet your Match!</h3>
+					<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
+					<button>Create a profile</button>
+				</aside>
+			</div>
+		</div>
+		<section id="main clearfix">
+				<div class="columns">
+					<section>
+						<div class="category">
+							<h3>Create a Profile</h3>
+							<p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
+							<button id="subscribe">Sign up now</button>
+						</div>
+						<div class="category">
+							<h3>Find a Developer</h3>
+							<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
+							<button>Start your search</button>
+						</div>
+						<div class="category">
+							<h3>Find a Designer</h3>
+							<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
+							<button>Start your search</button>
+						</div>
+					</section>
+				</div>
+				<footer>
+					<p>&copy 2013 Startup Matchmaker. Made in NY.</p> 
+				</footer>
+		</section>
+	</body>
+</html>
