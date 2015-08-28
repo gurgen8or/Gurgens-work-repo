@@ -156,10 +156,12 @@ div#marquee {
 
 section .category {
   background: #fff;
-  display: inline-block;
-  width: calc(30% + 10px);
+  float: left;
+  /*display: inline-block;*/
+  width: 33%;
   border-left: 1px solid gray;
   padding: 55px;
+  vertical-align: top;
 }
 
 section .category:first-child {

@@ -12,10 +12,28 @@
 		<link rel="stylesheet" href="css/reflexive.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Oswald|Slabo+27px|Lato|Montserrat' rel='stylesheet' type='text/css'>
 		<style>
+
+			@media screen and (max-width: 768px) {
+
+				body {
+
+					/*background-color: red;*/
+				}
+
+
+				section.category {
+
+					display: block;
+					width: auto;
+				}
+
+			}
+
+
 			@media screen and (max-width: 480px) {
 
 				body {
-					min-width: 480px;
+					/*min-width: 480px;*/
 				}
 
 				h1 {
@@ -92,7 +110,7 @@
 			</nav>
 		</header>
 		<div class="cover">
-			<h2>Because two brains <span>taste</span> <q>are</q> better than one.</h2>
+			<h2>Because two brains <span><del>taste</del></span> <q>are</q> better than one.</h2>
 		</div>
 		<div id="marquee" class="clearfix">
 			<div class="box">
@@ -104,8 +122,8 @@
 				</aside>
 			</div>
 		</div>
-		<section id="main clearfix">
-				<div class="columns">
+		<section id="main" class="clearfix">
+				<div class="columns clearfix">
 					<section>
 						<div class="category">
 							<h3>Create a Profile</h3>
@@ -125,7 +143,7 @@
 					</section>
 				</div>
 				<footer>
-					<p>&copy 2013 Startup Matchmaker. Made in NY.</p> 
+					<p>&copy; 2013 Startup Matchmaker. Made in NY.</p> 
 				</footer>
 		</section>
 	</body>
