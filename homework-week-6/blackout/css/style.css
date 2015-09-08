@@ -1,0 +1,17 @@
+.black {
+	background-color: black;
+}
+
+div {
+
+	width: 0;
+
+}
+
+#lightSwitch {
+	font-size: 24px;
+	font-weight: bold;
+	color: yellow;
+	background: red;
+	border: 2px solid blue;
+}
