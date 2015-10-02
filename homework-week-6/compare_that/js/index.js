@@ -2,6 +2,34 @@ $(document).ready(function(){
 
 	$('button#submit').click(function(){
 
+		if( $('input#userNumberA').val() == '' ){
+
+			alert('you left a box blank');
+			return false;
+		}
+
+	// $('button#submit').click(function(){
+
+	// 	var intA = 8;
+	// 	var strB = '8';
+
+	// 	console.log( ( intA == strB ) );
+
+	// 	console.log( '===================');
+
+	// 	console.log( (intA === strB) );
+
+	// }
+
+	// });
+
+	// $('button#submit').hover(function(){
+
+	// 	$(this).hide();
+
+	// });
+
+
 		//console.log('Test')
 		var valueA = parseInt($('input#userNumberA').val());
 
@@ -28,7 +56,7 @@ $(document).ready(function(){
 			//$().html();
 		} else {
 
-			console.log('=');
+			//console.log('=');
 			$('span#comparisonDisplay').html('=');
 		}
 

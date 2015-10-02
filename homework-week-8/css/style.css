@@ -1,0 +1,78 @@
+body, input, button {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.no-select {
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+.error {
+
+  border: 1px solid red;
+
+}
+
+form {
+
+  border: 1px solid #000;
+  width: 60%;
+  margin: 0px auto;
+
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form input[type=tel],
+form textarea {
+
+  width: 200px;
+
+}
+
+form > div {
+
+  padding: 10px 20px;
+  background-color: #ccc;
+
+}
+
+form > div label {
+
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+form > div ul {
+
+  padding: 0px;
+
+}
+
+form > div ul li {
+
+  list-style: none;
+
+}
+
+form > div ul li label {
+
+  display: inline;
+  width: auto;
+  cursor: pointer;
+
+}
+
+
+
+

@@ -65,7 +65,7 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -240,7 +240,7 @@ footer p {
   }*/
 
   header {
-    width: 320px;
+    max-width: 320px;
     padding: 0;
     /*height: 60px;*/
   }
@@ -256,7 +256,7 @@ footer p {
 
   nav a {
     border-bottom: 1px solid skyblue;
-    width: 320px;
+    max-width: 320px;
     text-align: center;
     float: left;
   }
@@ -265,7 +265,7 @@ footer p {
     cursor: pointer;
     display: block;
     position: relative;
-    left: 50px;
+    left: 100px;
   }
 
   .line {
@@ -283,14 +283,22 @@ footer p {
     overflow: hidden;
     transition: height 0.3s;
     position: relative;
-    left: -340px;
-    padding-top: 20px;
+    /*left: -340px;*/
+    /*padding-top: 20px;*/
+  }
+
+  .menu li {
+
+    padding: 5px 0;
+    line-height: 1em;
+
   }
 
   .menu li a {
     font-size: 16px;
-    padding: 5px 0;
-    margin-left: 70px;
+    /*padding: 5px 0;*/
+    /*margin-left: 70px;*/
+    text-align: center;
   }
 
   .open {
@@ -301,12 +309,11 @@ footer p {
     font-size: 1.1em;
     padding-left: 1%;
     padding-top: 5px;
-    float: left;
     padding-right: 20%;
   }
 
   #posts img {
-    width: 320px;
+    width: 100%;
   }
 
   .post img {
@@ -316,18 +323,18 @@ footer p {
   #posts article h2 {
     font-size: .7em;
     padding-top: 8%;
-    width: 295px;
+    max-width: 295px;
   }
 
   .post {
     margin-bottom: 0;
-    width: 320px;
+    max-width: 320px;
     padding-left: 0;
   }
 
   .post p {
     font-size: .5em;
-    width: 320px;
+    max-width: 320px;
     padding-right: 20px;
   }
 
@@ -407,7 +414,7 @@ footer p {
   }*/
 
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 
   #main {
@@ -419,11 +426,14 @@ footer p {
   }
 
   section#posts {
-    width: 500px; 
+    /*width: 500px; */
+    width: 60%;
+    padding-right: 20px;
   }
 
   aside#sidebar {
-    width: 238px;
+    /*width: 238px;*/
+    width: 30%;
   }
 
   .post img {

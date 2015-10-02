@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Forms</title>
+
+      <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+  </head>
+
+  <body>
+
+    <form method="post" action="http://ga.kameronzach.com/fewd-12/week-7/forms/email-api/index.php" id="contactForm" novalidate>
+
+      <input type="hidden" name="key" id="key" value="88c6f7c44ace33d864915df3d63d8e41">
+
+      <input type="hidden" name="sendEmailTo" id="sendEmailTo" value="gurgen8or@yahoo.com" class="required">
+
+      <div>
+        <label for="useremail">Your Email:</label>
+        <input type="email" placeholder="E-mail" name="userEmail" id="useremail" class=
+      "required">
+      </div>
+
+      <div>
+        <label for="userName">Your Name:</label>
+        <input type="text" name="userName" id="userName" class=
+      "required">
+      </div>
+
+      <div>
+        <label for="userSubject">Subject:</label>
+        <input type="text" name="userSubject" id="userSubject" class=
+      "required">
+      </div>
+
+      <div>
+        <label for="userphone">Telephone:</label>
+        <input type="tel" name="userPhone" id="userphone" maxlength="10"> 
+      </div>
+
+      <div>
+        <label for="userMessage">Your Message:</label>
+        <textarea rows="5" cols="50" name="userMessage" id="userMessage" class=
+      "required"></textarea>
+      </div>
+
+      <div>
+        <label for="userQuote">Your Quote:</label>
+        <input type="text" name="userQuote" value="&quot; Your quote! &quot;"  id="userQuote">
+      </div>
+
+      <div>
+        <input type="checkbox" value="user Legal" name="userLegal" id="legal" class=
+      "required">
+        <label for="legal" class="no-select">Your Legal Approval</label>
+      </div>
+    
+      <div>
+        <input type="submit" value="Send!">
+      </div>
+
+    </form>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+
+</html>
